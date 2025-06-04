@@ -42,17 +42,17 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="Displaydata"
-        options={{
-          title: 'Display',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="eye.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
         name="Fetchdata"
         options={{
           title: 'Fetch',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="cloud.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="Displaydata"
+        options={{
+          title: 'Display',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="eye.fill" color={color} />,
         }}
       />
       <Tabs.Screen

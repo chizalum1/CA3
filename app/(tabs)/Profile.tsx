@@ -17,7 +17,6 @@ export default function ProfileScreen() {
 
   const handleSave = () => {
     Alert.alert('Saved', `Name: ${name}\nEmail: ${email}`);
-    // You can add your actual save logic here (e.g. send to backend or AsyncStorage)
   };
 
   return (

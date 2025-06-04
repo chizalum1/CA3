@@ -1,4 +1,3 @@
-// map.tsx
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, ActivityIndicator, Alert } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';

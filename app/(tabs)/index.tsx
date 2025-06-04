@@ -6,7 +6,7 @@ export default function Index() {
     <View style={styles.container}>
       <Text style={styles.title}>Welcome to Rita's App!</Text>
       <Image
-        source={require('../../assets/rita.jpg')} // Update path if needed
+        source={require('../../assets/rita.jpg')} 
         style={styles.image}
       />
     </View>
